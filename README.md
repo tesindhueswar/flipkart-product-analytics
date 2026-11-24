@@ -1,6 +1,6 @@
 # 🛒 Flipkart Product Analytics & Business Intelligence Dashboard
 
-End-to-end analytics pipeline: **raw CSV → Pandas cleaning → MySQL → SQL analysis → Streamlit dashboard → Power BI**.
+End-to-end analytics pipeline: raw CSV -> Pandas cleaning -> MySQL -> SQL analysis -> Streamlit dashboard -> Seaborn charts (Power BI guide included, not built).
 
 ## Project structure
 ```
@@ -101,12 +101,11 @@ git init
 git add .
 git commit -m "Flipkart product analytics project"
 git branch -M main
-git remote add origin https://github.com/<your-username>/flipkart-product-analytics.git
+git remote add origin https://github.com/tesindhueswar/flipkart-product-analytics.git
 git push -u origin main
 ```
-Repository: `https://github.com/<your-username>/flipkart-product-analytics`
+Repository: `https://github.com/tesindhueswar/flipkart-product-analytics`
 
-> ⚠️ The CSVs, charts and report currently in this folder were generated from a **demo sample dataset**. Re-run the notebook on your real data to overwrite them before submitting.
 
 ## Dataset note
 This project uses the Kaggle "Flipkart Products" sample (20,000 raw rows, 15,575 after de-duplication). The file has no seller, review-count or stock columns, so seller_name = brand, and review and stock fields are empty or "Unknown". See BUSINESS_INSIGHTS_REPORT.md, section 7.
