@@ -1,0 +1,12 @@
+pandas>=2.0
+numpy
+matplotlib
+seaborn
+sqlalchemy>=2.0
+pymysql
+cryptography
+streamlit>=1.40
+streamlit-option-menu
+plotly
+jupyter
+ipykernel
