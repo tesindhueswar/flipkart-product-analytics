@@ -119,3 +119,6 @@ This project uses the Kaggle "Flipkart Products" sample (20,000 raw rows, 15,575
 
 ## Re-running with the real data
 The raw Kaggle file (flipkart_com-ecommerce_sample.csv, 38 MB) is not included because of its size. Download it from Kaggle "Flipkart Products", put it in `data/`, and run `python data/convert_flipkart.py`. Then set the environment variable `FLIPKART_RAW` to the path of `data/flipkart_converted.csv` before starting Jupyter. `data/other_products_raw.csv` is a small generated demo file.
+
+## GitHub repository
+https://github.com/tesindhueswar/flipkart-product-analytics
